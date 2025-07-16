@@ -730,10 +730,15 @@ section {
 }
 
 .row img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
+
 
 #addMoreBtn, #clearRecentBtn, .authorize {
     height: 40px;
@@ -1250,7 +1255,7 @@ section {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
-        float: right;
+        float: left;
         max-width: 360;
     }
 
@@ -1580,20 +1585,6 @@ section {
         border-radius: 0.5rem;
         font-weight: 1000;
     }
-
-    #registerForm {
-        margin-top: 16vh;
-        margin-left: 50px;
-        max-width: 300px;
-        padding: 10px;
-        position: fixed;
-        z-index: 9999;
-    } 
-
-    .input-form, select {
-        padding: 10px;
-        height: 40px;
-    } 
 
 }
 
