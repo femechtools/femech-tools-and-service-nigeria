@@ -806,7 +806,7 @@ section {
     align-items: center;
     gap: 3rem;
     padding-left: 30px;
-    margin-top: 30px;
+    margin-top: 130px;
     float: right;
 }
 
@@ -1233,6 +1233,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding: 0px 0px;
+        margin-top: 30px;
     }
 
 
@@ -1243,12 +1244,11 @@ section {
     }
 
     .contact {
-        max-width: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        float: none;
+        margin-top: 30px;
+        float: right;
+        max-width: 360;
     }
 
     .contact-text h2 {
@@ -1305,6 +1305,13 @@ section {
    .header {
     height: 15vh;
    }
+
+.main-text h2 {
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    margin: 30px 10px;
+}
 
    .menu {
        height: 12vh;
