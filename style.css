@@ -252,7 +252,7 @@ body, html {
     animation-delay: 1s;
 }
 
-.text {
+.home-content .text {
     position: absolute;
 }
 
@@ -1100,9 +1100,13 @@ section {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .row {
+        margin: 30px;
+    }
 
 
-    .contact {
+
+   /* .contact {
         max-width: 600px;
         display: flex;
         flex-direction: column;
@@ -1139,7 +1143,7 @@ section {
 
     .last-text p {
         margin-top: 30px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 768px) {
@@ -1153,7 +1157,7 @@ section {
 
 
     .slide {
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
     }
 
@@ -1243,7 +1247,7 @@ section {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .contact {
+   /*.contact {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
@@ -1278,7 +1282,7 @@ section {
 
     .last-text p {
         margin-top: 30px;
-    }
+    }*/
     
 }
 
@@ -1307,10 +1311,11 @@ section {
    }
 
 .main-text h2 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 1;
     text-align: center;
     margin: 30px 10px;
+    color: cyan;
 }
 
    .menu {
@@ -1378,13 +1383,13 @@ section {
         border-radius: 100%;
     }
 
-    .text {
+    .home-content .text {
         position: absolute;
         margin-left: 5px;
     }
 
     .home-content {
-        margin: 20px 0px;
+        margin: 20px 10px;
         max-width: 360px;
     }
 
@@ -1415,6 +1420,10 @@ section {
     .about-content {
         margin: 50px 0px;
         max-width: 360px;
+    }
+
+    .about-content h1 {
+        margin-bottom: 10px;
     }
 
     #services{
@@ -1460,9 +1469,9 @@ section {
     }
 
     .main-text h2 {
-        font-size: 40px;
+        text-align: center;
+        font-size: 50px;
         padding-bottom: 0px;
-        margin-left: 30px;
     }
 
 
