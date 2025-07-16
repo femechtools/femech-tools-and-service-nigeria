@@ -1373,8 +1373,8 @@ section {
 
     .home-image img{
         margin: 70px 20px 30px 20px;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         border-radius: 100%;
     }
 
@@ -1432,6 +1432,8 @@ section {
         text-align: center;
         font-size: 30px;
         padding: 0px 0px;
+        padding-bottom: 0px;
+        margin-top: 40px;
     }
 
     .container1 {
