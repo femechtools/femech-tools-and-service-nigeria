@@ -1106,7 +1106,7 @@ section {
 
 
 
-   /* .contact {
+   .contact {
         max-width: 600px;
         display: flex;
         flex-direction: column;
@@ -1143,7 +1143,7 @@ section {
 
     .last-text p {
         margin-top: 30px;
-    }*/
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1247,7 +1247,7 @@ section {
         grid-template-columns: repeat(1, 1fr);
     }
 
-   /*.contact {
+   .contact {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
@@ -1282,7 +1282,7 @@ section {
 
     .last-text p {
         margin-top: 30px;
-    }*/
+    }
     
 }
 
@@ -1511,8 +1511,10 @@ section {
     .contact {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 30px;
-        float: right;
+        max-width: 360px;
     }
 
     .contact-text h2 {
