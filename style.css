@@ -493,7 +493,7 @@ body, html {
     width: 100%;
     position: absolute;
     text-align: center;
-    left: 50%;
+    left: 0;
     bottom: -5px;
     transform: translateX(-50px);
     font-size: 17px;
@@ -1383,7 +1383,7 @@ section {
         border-radius: 100%;
     }
 
-    .home-content .text {
+    .text {
         position: absolute;
         margin-left: 5px;
     }
@@ -1515,6 +1515,7 @@ section {
         align-items: center;
         margin-top: 30px;
         max-width: 360px;
+        float: none;
     }
 
     .contact-text h2 {
