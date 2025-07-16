@@ -64,7 +64,7 @@ body, html {
 
 .slider-container {
   position: relative;
-  width: 100%;
+  width: 10%;
   height: 100%;
   overflow: hidden;
 }
@@ -636,10 +636,9 @@ section {
 }
 
 .row img {
-    width: 100%;
-    border-radius: 8px;
-    display: block;
-    transition: transform 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .layer {
@@ -1499,7 +1498,7 @@ section {
     
     .portfolio-content {
         left: 0;
-        width: 255px;
+        max-width: 360px;
         margin: 5px;
     }
 
@@ -1515,7 +1514,7 @@ section {
         align-items: center;
         margin-top: 30px;
         max-width: 360px;
-        float: none;
+        float: left;
     }
 
     .contact-text h2 {
