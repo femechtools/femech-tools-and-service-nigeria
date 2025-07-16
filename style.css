@@ -1328,7 +1328,7 @@ section {
     }
 
     .menu-button a{
-        font-size: 13px;
+        font-size: 11px;
         margin-left: 10px;
     }
 
@@ -1469,10 +1469,13 @@ section {
     }  
 
     .contact {
+        max-width: 360px;
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
-        float: right;
+        justify-content: center;
+        align-items: center;
+        float: none;
+        margin-left: 0px;
     }
 
     .contact-text h2 {
