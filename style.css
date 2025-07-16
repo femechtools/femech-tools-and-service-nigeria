@@ -1,14 +1,18 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+    pointer-events: auto;
 }
 
 body, html {
-    background: rgb(0, 0, 34);
+    color: white;
+    background: #081b29;
+    overflow-y: scroll;
     overflow-x: hidden;
-    overflow-y: auto;
-    color: aliceblue;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -1278,7 +1282,7 @@ section {
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
     .topbar {
         align-items: left;
     }
@@ -1294,7 +1298,7 @@ section {
    }
 
    .header {
-    height: 13vh;
+    height: 15vh;
    }
 
    .menu {
@@ -1318,7 +1322,7 @@ section {
     }
 
     .menu-button a{
-        font-size: 20px;
+        font-size: 14px;
         margin-left: 10px;
     }
 
@@ -1329,8 +1333,12 @@ section {
 
 
     .home {
-        margin-top: 100px;
+        width: 360px;
+        padding: 50px 20px;
         flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .home-image {
@@ -1339,13 +1347,34 @@ section {
     }
 
     .home-image img{
-        height: 300px;
-        width: 300px;
+        margin: 70px 20px 30px 20px;
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+    }
+
+    .text {
+        position: absolute;
+        margin-left: 5px;
     }
 
     .home-content {
         margin: 20px 0px;
         max-width: 360px;
+    }
+
+    .home-content h3 {
+        font-size: 25px;
+
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 20px;
+        margin: 0px 20px 0px 0px;
     }
 
 
@@ -1363,15 +1392,38 @@ section {
         max-width: 360px;
     }
 
+    #services{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+        margin: 0 auto;  
+    }
+
     .skill-container {
         max-width: 360px;
     }
 
     .sub-title{
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         padding: 0px 0px;
     }
+
+    .container1 {
+        width: 360px;
+        height: 500px;
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+
+    .headings {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-bottom: 50px;
+    }
+    
     .overlay {
         max-width: 360px;
     }
@@ -1387,20 +1439,38 @@ section {
         width: 100%;
     }
 
+    .radial-bars .radial-bar svg{
+        left: 40%;
+    }
+        
+    .radial-bar .text {
+        left: 30%;
+    }
 
+    .container {
+        padding: 40px;
+    }
+    
+    .portfolio-content {
+        left: 0;
+        width: 255px;
+        margin: 5px;
+    }
+
+        
+    .sub-title span {
+        padding: 40px; 
+    }  
 
     .contact {
-        max-width: 360px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        float: none;
-        margin-left: 0px;
+        margin-top: 30px;
+        float: right;
     }
 
     .contact-text h2 {
-        font-size: 60px;
+        font-size: 40px;
         line-height: 1;
         text-align: center;
         color: white;
