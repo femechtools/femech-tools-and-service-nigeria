@@ -1786,18 +1786,12 @@ section {
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
          left: 0;
-        max-width: 360px;
-    }
-
-    .more-portfolios a {
-        max-width: 480px;
-        height: 100px;
-        width: 100%;
+         max-width: 360px;
     }
 
         .row {
         width: 360px;
-        margin: 0px 20px 0px 20px;
+        margin: auto;
     }
 
     .row img {
@@ -1854,17 +1848,11 @@ section {
     }
 
     .contact-form form {
-        margin: 10px 40px 40px 10px;
+        margin: 10px 10px 40px 10px;
     }  
 
     .last-text p {
         margin-top: 30px;
-    }
-
-    .register {
-        height: 400px;
-        width: 300px;
-        position: absolute;
     }
 
     .last-text p {
