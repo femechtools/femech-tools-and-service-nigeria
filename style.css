@@ -524,7 +524,7 @@ body, html {
 .radial-bar .percentage {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 40%;
     transform: translate(-50%, -50%);
     font-size: 17px;
     font-weight: 500;
@@ -820,33 +820,6 @@ section {
     border: none;
 }
 
-.more-portfolios {
-    margin: 50px 10%;
-    width: 100%;
-}
-
-.more-portfolios a {
-     height: 40px;
-    width: 80%;
-    background: cyan;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 1000;
-    border-radius: 11px;
-    box-shadow: 0 0 1px cyan,
-    0 0 2px cyan, 0 0 5px cyan,
-    0 0 10px cyan, 0 0 20px cyan;
-}
-
-
-.more-portfolios a:hover {
-    box-shadow: 0 0 10px cyan,
-    0 0 20px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
-}
-
 .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -854,7 +827,6 @@ section {
     gap: 3rem;
     padding-left: 30px;
     margin-top: 130px;
-    float: right;
 }
 
 .contact-text h2 {
@@ -1146,13 +1118,12 @@ section {
 
     .portfolio-content {
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
     }
 
     .row {
-        margin: 30px;
+        margin: auto;
     }
-
-
 
    .contact {
         max-width: 600px;
@@ -1160,7 +1131,6 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        float: none;
         margin-left: 30px;
     }
 
@@ -1293,15 +1263,15 @@ section {
     .portfolio-content {
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
     }
 
    .contact {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
-        float: right;
         max-width: 360;
-       margin-left: 10px;
+        margin-left: 10px;
     }
 
     .contact-text h2 {
@@ -1522,7 +1492,7 @@ section {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        max-width: 360px;
+        max-width: 330px;
         margin: auto;
     }
 
@@ -1560,8 +1530,7 @@ section {
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        max-width: 360px;
-        float: none;
+        max-width: 330px;
         margin-left: 10px;
     }
 
@@ -1813,7 +1782,7 @@ section {
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
          left: 0;
-         max-width: 360px;
+         max-width: 330px;
     }
 
     .row {
@@ -1852,7 +1821,6 @@ section {
         align-items: center;
         margin-top: 30px;
         max-width: 330px;
-        float: none;
         margin-left: 20px;
     }
 
