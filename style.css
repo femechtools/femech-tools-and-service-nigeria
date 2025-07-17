@@ -801,7 +801,7 @@ section {
     border-radius: 9px;
     margin-bottom: 20px;
     margin-left: 20px;
-        box-shadow: 0 0 5px #0ef,
+    box-shadow: 0 0 5px #0ef,
     0 0 25px #0ef
 }
 
@@ -1124,10 +1124,13 @@ section {
 
 
 
-    .portfolio-content {
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-    }
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px; 
+    padding: 30px; 
+}
 
     .row {
         margin: auto;
@@ -1268,11 +1271,13 @@ section {
 
 
 
-    .portfolio-content {
-        justify-content: center;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-    }
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px; 
+    padding: 30px; 
+}
 
 .contact {
     display: grid;
@@ -1499,11 +1504,13 @@ section {
     }
 
 
-    .portfolio-content {
-        grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        max-width: 330px;
-        margin: auto;
-    }
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px; 
+    padding: 10px; 
+}
 
     .row {
         width: 360px;
@@ -1787,12 +1794,14 @@ section {
     }
 
 
-    .portfolio-content {
-        grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        margin: auto;
-        max-width: 330px;
-        margin-right: 30px;
-    }
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 100px;
+    margin-top: 50px; 
+    padding: 100px; 
+    max-width: 360px;
+}
 
     .row {
         width: 330px;
