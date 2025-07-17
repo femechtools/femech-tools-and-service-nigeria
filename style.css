@@ -286,6 +286,7 @@ body, html {
 .home-links {
     display: flex;
     margin-top: 20px;
+    margin-left: 20px;
     width: 500px;
 }
 
@@ -1528,6 +1529,7 @@ section {
         margin-top: 30px;
         max-width: 360px;
         float: left;
+         margin-left: 0px;
     }
 
     .contact-text h2 {
@@ -1827,6 +1829,7 @@ section {
         margin-top: 30px;
         max-width: 360px;
         float: left;
+         margin-left: 0px;
     }
 
     .contact-text h2 {
