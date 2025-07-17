@@ -220,6 +220,9 @@ body, html {
     width: 50px;
     border-radius: 50%;
     margin-top: 4px;
+    box-shadow: 0 0 10px red,
+    0 0 10px red, 0 0 10px red,
+    0 0 10px red, 0 0 20px red;
 }
 
 .site-name {
