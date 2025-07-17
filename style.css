@@ -24,6 +24,15 @@ body, html {
     flex-direction: column;
 }
 
+.dashboard {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
 .tool-list {
     margin-top: 20vh;
     height: 20vh;
