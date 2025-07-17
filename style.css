@@ -1519,6 +1519,7 @@ section {
     }
 
     .contact-text h2 {
+        text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
     }
@@ -1537,7 +1538,7 @@ section {
     }
 
     .contact-form form {
-        margin-bottom: 40px;
+        margin: 10px 40px 40px 10px;
     }  
 
     .last-text p {
@@ -1817,6 +1818,7 @@ section {
     }
 
     .contact-text h2 {
+        text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
     }
@@ -1835,7 +1837,7 @@ section {
     }
 
     .contact-form form {
-        margin-bottom: 40px;
+        margin: 10px 40px 40px 10px;
     }  
 
     .last-text p {
