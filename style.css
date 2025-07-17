@@ -15,12 +15,13 @@ body, html {
 }
 
 .navbar {
-    margin-top: 20px;
+    margin-top: 0px;
     height: 60vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    background: cyan;
 }
 
 .dashboard {
