@@ -523,7 +523,7 @@ body, html {
 .radial-bar .percentage {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     font-size: 17px;
     font-weight: 500;
@@ -1560,7 +1560,7 @@ section {
         align-items: center;
         margin-top: 30px;
         max-width: 360px;
-        float: left;
+        float: none;
         margin-left: 10px;
     }
 
@@ -1584,17 +1584,11 @@ section {
     }
 
     .contact-form form {
-        margin: 10px 40px 40px 10px;
+        margin: auto;
     }  
 
     .last-text p {
         margin-top: 30px;
-    }
-
-    .register {
-        height: 400px;
-        width: 300px;
-        position: absolute;
     }
 
     .last-text p {
@@ -1639,11 +1633,6 @@ section {
     .topbar a {
        margin: 0px 30px;
     }
-
-    .navbar {
-    top: 15vh;
-    height: 95vh;
-}
 
    .header {
        align-items: flex-start;
