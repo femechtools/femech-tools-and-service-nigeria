@@ -1783,7 +1783,7 @@ section {
     }
 
         .row {
-        width: 360px;
+        width: 330px;
         margin: auto;
     }
 
@@ -1816,8 +1816,8 @@ section {
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        max-width: 360px;
-        float: left;
+        max-width: 330px;
+        float: none;
         margin-left: 20px;
     }
 
