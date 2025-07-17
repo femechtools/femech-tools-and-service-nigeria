@@ -1541,7 +1541,6 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
-        margin-right: 70px;
     }
 
     .contact-text h2 span {
@@ -1558,7 +1557,7 @@ section {
     }
 
     .contact-form form {
-       margin-right: 70px;
+       margin: 0px 10px;
     }  
 
     .last-text p {
@@ -1785,7 +1784,7 @@ section {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        margin-right: 90px;
+        margin: auto;
          max-width: 330px;
     }
 
@@ -1848,7 +1847,7 @@ section {
     }
 
     .contact-form form {
-       margin: auto;
+       margin: 0px 10px;
     }  
 
     .last-text p {
