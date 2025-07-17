@@ -1785,7 +1785,7 @@ section {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        margin-right: 70px;
+        margin-right: 90px;
          max-width: 330px;
     }
 
