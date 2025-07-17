@@ -15,7 +15,7 @@ body, html {
 }
 
 .navbar {
-    margin-top: 10vh;
+    margin-top: 5vh;
     height: 60vh;
     width: 100%;
     display: flex;
@@ -96,7 +96,7 @@ body, html {
 .slider-container {
   position: relative;
   width: 90%;
-  height: 60vh;
+  height: 90vh;
   overflow: hidden;
   margin: auto;
 }
