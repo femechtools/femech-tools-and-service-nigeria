@@ -1496,7 +1496,7 @@ section {
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
         max-width: 330px;
-        margin-right: 50px;
+        margin: auto;
     }
 
     .row {
@@ -1541,7 +1541,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 70px;
     }
 
     .contact-text h2 span {
@@ -1558,7 +1558,7 @@ section {
     }
 
     .contact-form form {
-       margin-right: 50px;
+       margin-right: 70px;
     }  
 
     .last-text p {
@@ -1785,7 +1785,7 @@ section {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-        margin-right: 50px;
+        margin-right: 70px;
          max-width: 330px;
     }
 
@@ -1832,7 +1832,7 @@ section {
         text-align: center;
         font-size: 40px;
         padding-bottom: 30px;
-        margin-right: 50px;
+        margin-right: 150px;
     }
 
     .contact-text h2 span {
@@ -1849,7 +1849,7 @@ section {
     }
 
     .contact-form form {
-       margin-right: 50px;
+       margin-right: 150px;
     }  
 
     .last-text p {
